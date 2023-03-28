@@ -4,7 +4,7 @@ import { Vpc } from "./constructs/vpc";
 import { Ec2Instance } from "./constructs/ec2-instance";
 import { NetworkFirewall } from "./constructs/network-firewall";
 
-export class NetworkStack extends cdk.Stack {
+export class NetworkFirewallStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
